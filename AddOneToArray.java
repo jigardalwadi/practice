@@ -12,18 +12,18 @@ public class AddOneToArray {
 		}
 		int[] newNumber = new int [len+2];
 	    newNumber[0] = 1;
-	    
+
 	    return newNumber;
 	}
-	
+
 	public static void main(String[] args) {
 		int[] nums = new int[] {9,9,9};
-		AddOneToArray aoa = new AddOneToArray();
-		int[] out =  aoa.add(nums);
+		AddOneToArray AddOne = new AddOneToArray();
+		int[] out =  AddOne.add(nums);
 		for(int i : out) {
 			System.out.println(i);
 		}
-		
+
 	}
 
 }
