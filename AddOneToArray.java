@@ -18,8 +18,8 @@ public class AddOneToArray {
 
 	public static void main(String[] args) {
 		int[] nums = new int[] {9,9,9};
-		AddOneToArray AddOneToArray = new AddOneToArray();
-		int[] out =  AddOneToArray.add(nums);
+		AddOneToArray AddOne = new AddOneToArray();
+		int[] out =  AddOne.add(nums);
 		for(int i : out) {
 			System.out.println(i);
 		}
